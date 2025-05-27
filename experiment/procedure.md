@@ -2,9 +2,9 @@
 
 This experiment demonstrates the real-life application of the **Poisson process** and helps visualize key properties such as **splitting** and **merging**.
 
-We model the process as the **random ejection of radioactive particles** from a radiation source. The number of particles emitted over a fixed time interval (e.g., **<set a number> seconds**) follows a **Poisson distribution**. We will visualize the particle counts using a **bar graph** displayed on the right-hand side.
+We model the process as the **random ejection of radioactive particles** from a radiation source. The number of particles emitted over a fixed time interval (e.g., **`<set a number>` seconds**) follows a **Poisson distribution**. We will visualize the particle counts using a **bar graph** displayed on the right-hand side.
 
-The **average number of particles emitted** in this time interval is **<set a number>**, representing the Poisson parameter \( \lambda \) (rate of occurrence).
+The **average number of particles emitted** in this time interval is **`<set a number>`**, representing the Poisson parameter \( \lambda \) (rate of occurrence).
 
 ---
 
@@ -18,7 +18,7 @@ The **average number of particles emitted** in this time interval is **<set a nu
 
 ---
 
-#### Part 2: Splitting the Poisson Process
+#### Part 2: Splitting and Merging the Poisson Process
 
 - Take the events from the single Poisson source and randomly assign each to one of two categories (Source A and Source B).
 - This simulates **splitting** the process, where each sub-source independently emits with reduced rate \( \lambda_1 \) and \( \lambda_2 \), such that \( \lambda_1 + \lambda_2 = \lambda \).
@@ -28,7 +28,7 @@ The **average number of particles emitted** in this time interval is **<set a nu
 
 ---
 
-#### Part 3: Merging Two Independent Poisson Processes
+#### Part 3: Exponential THingy of Poisson Processes
 
 - Simulate two independent Poisson sources (A and B) with known rates \( \lambda_1 \) and \( \lambda_2 \).
 - Merge the results by summing particle counts from both sources at each interval.
